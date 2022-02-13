@@ -1,4 +1,4 @@
-package BookStore;
+package BookStore.Classes;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,7 +13,7 @@ public class AdminPage {
     static JButton backToHome, Report, removeAll, NewMember ,report;
     static JLabel welcomeLabel  , empty3;
     static JLabel empty, empty2;
-    ImageIcon icon = new ImageIcon("siteIcon.png");
+    ImageIcon icon = new ImageIcon("BookStore\\img\\siteIcon.png");
 
 
     public AdminPage() {
@@ -23,7 +23,7 @@ public class AdminPage {
     public void adminPage() {
 
 
-        JLabel photo = new JLabel(new ImageIcon("Back.jpg"));
+        JLabel photo = new JLabel(new ImageIcon("BookStore\\img\\payBackground.jpg"));
         photo.setBounds(0,0,1000,700);
 
         welcomeLabel = new JLabel(" Admin Page ");
@@ -44,7 +44,7 @@ public class AdminPage {
             }
         });
 
-        backToHome = new JButton(new ImageIcon("SS.png"));
+        backToHome = new JButton(new ImageIcon("BookStore\\img\\Home.png"));
         backToHome.setBounds(510, 20, 70, 50);
         backToHome.setBackground(new Color(0xFFFFFF));
         backToHome.setFocusable(false);
@@ -125,7 +125,7 @@ public class AdminPage {
         System.out.println("Remove Button Pressed!");
 
         try {
-            boolean result = Files.deleteIfExists(Paths.get("Store.txt"));
+            boolean result = Files.deleteIfExists(Paths.get("BookStore\\Files\\Store.txt"));
             if (result) {
                 System.out.println("Store File is Deleted!");
             } else {
@@ -136,7 +136,7 @@ public class AdminPage {
         }
 
         try {
-            boolean result = Files.deleteIfExists(Paths.get("PhotoFile.txt"));
+            boolean result = Files.deleteIfExists(Paths.get("BookStore\\Files\\PhotoFile.txt"));
             if (result) {
                 System.out.println("Photo File is Deleted!");
             } else {

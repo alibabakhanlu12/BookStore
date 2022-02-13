@@ -1,4 +1,4 @@
-package BookStore;
+package BookStore.Classes;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ public class EndPage {
     JLabel Check;
     JButton yes, No;
     JLabel empty;
-    ImageIcon icon = new ImageIcon("siteIcon.png");
+    ImageIcon icon = new ImageIcon("BookStore.img\\siteIcon.png");
 
     public EndPage() {
         Add();

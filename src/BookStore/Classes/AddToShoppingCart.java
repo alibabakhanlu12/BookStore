@@ -1,4 +1,4 @@
-package BookStore;
+package BookStore.Classes;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +10,8 @@ public class AddToShoppingCart {
     JLabel AddToCart;
     JButton Ok;
     JLabel empty;
-    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
+
+    ImageIcon icon = new ImageIcon("BookStore.img\\siteIcon.png");
 
     public AddToShoppingCart() {
         Add();

@@ -1,4 +1,4 @@
-package BookStore;
+package BookStore.Classes;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 
-import static BookStore.CustomerPage.ShoppingCartTxtArea;
+import static BookStore.Classes.CustomerPage.ShoppingCartTxtArea;
 
 
 
@@ -19,7 +19,7 @@ public class ShoppingCart {
 
     public void shoppingCart() {
         JFrame f = new JFrame("Cart");
-        ImageIcon icon = new ImageIcon("siteIcon.png");
+        ImageIcon icon = new ImageIcon("BookStore\\img\\siteIcon.png");
 
         JScrollPane d = new JScrollPane(ShoppingCartTxtArea);
         d.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
@@ -79,7 +79,5 @@ public class ShoppingCart {
         f.add(backBtn);
         f.add(label2);
     }
-    public static void main(String[] args) {
-        ShoppingCart f = new ShoppingCart();
-    }
+
 }

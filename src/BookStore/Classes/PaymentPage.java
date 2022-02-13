@@ -1,10 +1,10 @@
-package BookStore;
+package BookStore.Classes;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
+//hkjkj
 
 public class PaymentPage {
 
@@ -15,9 +15,9 @@ public class PaymentPage {
     public void AddGUI() {
         JFrame MainFrame = new JFrame("Payment Page");
 
-        ImageIcon icon = new ImageIcon("siteIcon.png");
+        ImageIcon icon = new ImageIcon("BookStore\\img\\siteIcon.png");
 
-        JLabel image = new JLabel(new ImageIcon("Back.jpg"));
+        JLabel image = new JLabel(new ImageIcon("BookStore\\img\\payBackground.jpg"));
         image.setBounds(0, 0, 700, 700);
 
         JLabel pay = new JLabel("Payment Page");
@@ -149,7 +149,7 @@ public class PaymentPage {
                         WarningLabel.setBounds(10, 340, 100, 150);
                         WarningLabel.setFont(new Font("Calibri", Font.BOLD, 22));
                         WarningLabel.setForeground(new Color(0xA80000));
-                        JLabel image = new JLabel(new ImageIcon("War.png"));
+                        JLabel image = new JLabel(new ImageIcon("BookStore\\img\\War.png"));
                         image.setBounds(430, 0, 96, 96);
                         WarningFrame.add(image);
                         WarningFrame.add(WarningLabel);
