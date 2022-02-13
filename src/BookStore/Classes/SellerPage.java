@@ -19,7 +19,7 @@ public class SellerPage {
     static JButton photoBtn, AddBtn, backToHome, ShowTable, Clear;
     static ImageIcon photo12;
     static JPanel panel;
-    ImageIcon icon = new ImageIcon("BookStore.img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
     static String[] photo = new String[10];
     static String[] nameArray = new String[10];
@@ -49,7 +49,7 @@ public class SellerPage {
         welcomeLabel.setFont(new Font("Calibri", Font.BOLD, 60));
 
         backToHome = new JButton("");
-        backToHome.setIcon(new ImageIcon("BookStore\\img\\Home.png"));
+        backToHome.setIcon(new ImageIcon("img\\Home.png"));
         backToHome.setBounds(740, 10, 80, 45);
         backToHome.setBackground(new Color(0xFFFFFF));
         backToHome.setFont(new Font("Calibri", Font.BOLD, 18));
@@ -65,7 +65,7 @@ public class SellerPage {
         label = new JLabel("");
         label.setBounds(0, 23, 23, 32);
 
-        photo12 = new ImageIcon("BookStore\\img\\payBackground.jpg");
+        photo12 = new ImageIcon("img\\payBackground.jpg");
         PagePhoto = new JLabel();
         PagePhoto.setIcon(photo12);
         PagePhoto.setBounds(0, 0, 845, 726);
@@ -143,7 +143,7 @@ public class SellerPage {
             }
         });
 
-        photoFile = new File("BookStore\\Files\\PhotoFile.txt");
+        photoFile = new File("Files\\PhotoFile.txt");
         try {
             if (photoFile.createNewFile()) {
                 System.out.println("File with name PhotoFile Created!");
@@ -153,7 +153,7 @@ public class SellerPage {
             System.out.println("There was an error!");
             e.printStackTrace();
         }
-        InformationFile = new File("BookStore\\Files\\Store.txt");
+        InformationFile = new File("Files\\Store.txt");
         try {
             if (InformationFile.createNewFile()) {
                 System.out.println("File with name : " + InformationFile.getName() + " Created!");
@@ -163,7 +163,7 @@ public class SellerPage {
             System.out.println("There was an error!");
             e.printStackTrace();
         }
-        ShoppingCartFile = new File("BookStore\\Files\\ShoppingCart.txt");
+        ShoppingCartFile = new File("Files\\ShoppingCart.txt");
         try {
             if (ShoppingCartFile.createNewFile()) {
                 System.out.println("File with name   " + ShoppingCartFile.getName() + " Created!");

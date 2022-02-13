@@ -15,7 +15,7 @@ public class CustomerPage {
     static JTextArea product1, p2, p3, p4, p5, p6, p7, p8, p9, p10, ShoppingCartTxtArea, ReportForShoppingCart;
     JButton backBtn, cartBtn, productBtn1, pBtn2, pBtn3, pBtn4, pBtn5, pBtn6, pBtn7, pBtn8, pBtn9, pBtn10;
     String one, two, three, four, five, six, seven, eight, nine, ten;
-    ImageIcon icon = new ImageIcon("BookStore.img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
     static String row11, row12, row13, row14;
     static String row_1, row_2, row_3, row_4;
@@ -44,11 +44,11 @@ public class CustomerPage {
         empty = new JLabel(" ");
         empty.setBounds(0, 0, 10, 30);
 
-        JLabel bgPic = new JLabel(new ImageIcon("BookStore.img\\SellerBackgound.jpg"));
+        JLabel bgPic = new JLabel(new ImageIcon("img\\SellerBackgound.jpg"));
         bgPic.setBounds(0, 0, 1100, 700);
 
         backBtn = new JButton("");
-        backBtn.setIcon(new ImageIcon("BookStore.img\\Home.png"));
+        backBtn.setIcon(new ImageIcon("img\\Home.png"));
         backBtn.setBounds(1190, 20, 80, 45);
         backBtn.setBackground(new Color(0xFFFFFF));
         backBtn.setFont(new Font("Calibri", Font.BOLD, 18));
@@ -63,7 +63,7 @@ public class CustomerPage {
         });
 
         cartBtn = new JButton();
-        cartBtn.setIcon(new ImageIcon("BookStore.img\\Sabad.png"));
+        cartBtn.setIcon(new ImageIcon("img\\Sabad.png"));
         cartBtn.setFocusable(false);
         cartBtn.setBackground(new Color(0xFFFFFF));
         cartBtn.setBounds(1090, 20, 80, 45);
@@ -80,9 +80,9 @@ public class CustomerPage {
         cPage.setBounds(100, 20, 300, 40);
         cPage.setForeground(Color.white);
 
-        File MyFile = new File("BookStore.Files\\Store.txt");
+        File MyFile = new File("Files\\Store.txt");
 
-        File photoFile = new File("BookStore.Files\\PhotoFile.txt");
+        File photoFile = new File("Files\\PhotoFile.txt");
         try {
             if (MyFile.createNewFile()) {
                 System.out.println("file with name " + MyFile.getName() + " created.");

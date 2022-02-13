@@ -11,7 +11,7 @@ public class AddToShoppingCart {
     JButton Ok;
     JLabel empty;
 
-    ImageIcon icon = new ImageIcon("BookStore.img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
     public AddToShoppingCart() {
         Add();

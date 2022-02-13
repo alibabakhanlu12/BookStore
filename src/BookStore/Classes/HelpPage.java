@@ -11,7 +11,7 @@ public class HelpPage {
     JTextArea SellerTextArea;
     JScrollPane scrollPane;
     JLabel empty;
-    ImageIcon icon = new ImageIcon("BookStore\\img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
     public HelpPage() {
         AddGUI();

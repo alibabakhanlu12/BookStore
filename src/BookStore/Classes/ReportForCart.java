@@ -12,7 +12,7 @@ import static BookStore.Classes.CustomerPage.ReportForShoppingCart;
 public class ReportForCart {
     JButton back;
     JFrame frame;
-    ImageIcon icon = new ImageIcon("BookStore\\img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
     JLabel empty , showAllinCart;
     JScrollPane scroll;
     public ReportForCart(){

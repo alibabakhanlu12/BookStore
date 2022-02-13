@@ -1,9 +1,5 @@
 package BookStore.Classes;
 
-import BookStore.LoginsPage.LoginForAdmin;
-import BookStore.LoginsPage.LoginForCostumer;
-import BookStore.LoginsPage.LoginForSeller;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -14,7 +10,7 @@ public class FirstPage {
     JFrame frame;
     JButton SellerBtn, CustomerBtn, AdminBtn, helpBtn;
     JLabel photo2, empty;
-    ImageIcon icon = new ImageIcon("BookStore\\img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
     public FirstPage() {
         firstPage();
@@ -22,7 +18,7 @@ public class FirstPage {
 
     public void firstPage() {
 
-        ImageIcon imageIcon = new ImageIcon("BookStore\\img\\firstPage.jpg");
+        ImageIcon imageIcon = new ImageIcon("img\\firstPage.jpg");
 
         photo2 = new JLabel();
         photo2.setIcon(imageIcon);

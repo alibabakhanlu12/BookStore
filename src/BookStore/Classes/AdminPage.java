@@ -136,7 +136,7 @@ public class AdminPage {
         }
 
         try {
-            boolean result = Files.deleteIfExists(Paths.get("BookStore\\Files\\PhotoFile.txt"));
+            boolean result = Files.deleteIfExists(Paths.get("Files\\PhotoFile.txt"));
             if (result) {
                 System.out.println("Photo File is Deleted!");
             } else {

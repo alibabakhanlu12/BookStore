@@ -11,7 +11,7 @@ public class EndPage {
     JLabel Check;
     JButton yes, No;
     JLabel empty;
-    ImageIcon icon = new ImageIcon("BookStore.img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
     public EndPage() {
         Add();

@@ -11,7 +11,7 @@ public class CheckToDone {
     public CheckToDone(){
         Frames();
     }
-    ImageIcon icon = new ImageIcon("BookStore.img\\siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
     public void Frames(){
 
         JFrame frame = new JFrame();

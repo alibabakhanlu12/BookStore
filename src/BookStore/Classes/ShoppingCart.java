@@ -19,7 +19,7 @@ public class ShoppingCart {
 
     public void shoppingCart() {
         JFrame f = new JFrame("Cart");
-        ImageIcon icon = new ImageIcon("BookStore\\img\\siteIcon.png");
+        ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
         JScrollPane d = new JScrollPane(ShoppingCartTxtArea);
         d.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
