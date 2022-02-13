@@ -192,9 +192,6 @@ public class PaymentPage {
 
     }
 
-    public static void main(String[] args) {
-        PaymentPage f = new PaymentPage();
-    }
 }
 
 

@@ -64,8 +64,4 @@ public class HelpPage {
         frame.add(empty);
         frame.setIconImage(icon.getImage());
     }
-
-    public static void main(String[] args) {
-        HelpPage f = new HelpPage();
-    }
 }

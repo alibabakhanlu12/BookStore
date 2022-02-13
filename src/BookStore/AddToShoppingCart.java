@@ -10,7 +10,7 @@ public class AddToShoppingCart {
     JLabel AddToCart;
     JButton Ok;
     JLabel empty;
-    ImageIcon icon = new ImageIcon("siteIcon.png");
+    ImageIcon icon = new ImageIcon("img\\siteIcon.png");
 
     public AddToShoppingCart() {
         Add();
@@ -52,9 +52,6 @@ public class AddToShoppingCart {
         frame.setIconImage(icon.getImage());
     }
 
-    public static void main(String[] args) {
-        AddToShoppingCart d = new AddToShoppingCart();
-    }
 }
 
 

@@ -179,9 +179,6 @@ public class AdminPage {
     }
 
 
-    public static void main(String[] args) {
-        AdminPage f = new AdminPage();
-    }
 
 
 }

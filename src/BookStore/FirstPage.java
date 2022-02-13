@@ -10,7 +10,7 @@ public class FirstPage {
     JFrame frame;
     JButton SellerBtn, CustomerBtn, AdminBtn, helpBtn;
     JLabel photo2, empty;
-    ImageIcon icon = new ImageIcon("siteIcon.png");
+    ImageIcon icon = new ImageIcon("/img/siteIcon.png");
 
     public FirstPage() {
         firstPage();
@@ -18,7 +18,7 @@ public class FirstPage {
 
     public void firstPage() {
 
-        ImageIcon imageIcon = new ImageIcon("gg.jpg");
+        ImageIcon imageIcon = new ImageIcon("/img/gg.jpg");
 
         photo2 = new JLabel();
         photo2.setIcon(imageIcon);

@@ -1110,7 +1110,4 @@ public class CustomerPage {
         bgPic.add(empty2);
     }
 
-    public static void main(String[] args) throws IOException {
-        CustomerPage c = new CustomerPage();
-    }
 }

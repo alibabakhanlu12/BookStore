@@ -63,8 +63,5 @@ public class CheckToDone {
         frame.setIconImage(icon.getImage());
 }
 
-    public static void main(String[] args) {
-        CheckToDone c = new CheckToDone();
-    }
 }
 

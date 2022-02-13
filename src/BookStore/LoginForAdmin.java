@@ -109,9 +109,6 @@ public class LoginForAdmin {
         MainFrame.add(Empty);
     }
 
-    public static void main(String[] args) {
-        LoginForAdmin f = new LoginForAdmin();
-    }
 }
 
 

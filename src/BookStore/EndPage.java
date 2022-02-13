@@ -110,9 +110,7 @@ public class EndPage {
         frame.add(empty);
     }
 
-    public static void main(String[] args) {
-        EndPage e = new EndPage();
-    }
+
 }
 
 

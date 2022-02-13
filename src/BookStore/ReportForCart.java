@@ -57,9 +57,6 @@ public class ReportForCart {
         frame.add(empty);
     }
 
-    public static void main(String[] args) {
-        ReportForCart f = new ReportForCart();
-    }
 
 
 }
